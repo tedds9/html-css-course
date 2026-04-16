@@ -1,90 +1,143 @@
-<style>
-.tahoma {
-  font-family: Tahoma;
-  font-weight:bold;
-  font-size: 20px;
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+  <style>
+.e-font {
+  font-family: Arial;
 }
-.verdana {
-  font-family: verdana;
-}
-.course {
+.e-new {
+  color: orange;
+  padding-left: 100px;
+  margin-bottom: 0px;
+  font-size:11px;
   font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 5px;
 }
-.begin {
-  margin-top:0px;
+.e-mac {
+  font-weight:bold;
+  padding-left: 70px;
+  margin-top: 5px;
+  font-size:14px;
+  margin-bottom: 0px;
+}
+.e-super {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-weight:bold;
+  font-size:24px;
+}
+.e-from {
+  margin-top:5px;
+  margin-bottom: 0px;
+  font-size:12px;
+  margin-left: 85px;
+}
+.e-buy {
+ font-size: 12px;
+ margin-top:10px;
+ margin-left: 95px;
+ margin-bottom:50px;
+ color:white;
+ background-color: blue;
+ border:none;
+ padding: 5px  10px;
+ border-radius: 25px;
+ transition:opacity 0.15s;
+}
+.e-buy:hover {
+  opacity:0.7;
+  cursor: pointer;
+}
+.e-buy:active {
+  opacity: 0.4;
+}
+
+</style>
+
+<p class="e-font e-new">New</p>
+<p class="e-font e-mac">MacBook Pro</p>
+<p class="e-font e-super">Supercharged for pros.</p>
+<p class="e-font e-from">From $1999</p>
+<button class="e-font e-buy">Buy</button>
+
+<style>
+.f-font {
+  font-family: Arial;
+}
+.f-number {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.f-usd {
+  
+  font-weight:normal;
+  color: grey;
   font-size: 14px;
+}
+.f-today {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: green;
+  font-size: 12px;
+}
+.f-hour {
+  margin-top: 5px;
+  margin-bottom: 50px;
+  color: grey;
+  font-size: 12px;
+}
+.f-percentage {
+  color: red;
+}
+
+</style>
+
+<p class="f-font f-number">
+  1,049.61 <span class="f-font f-usd">USD</span>
+</p>
+<p class="f-font f-today">
+  +18.05 (1.75%) today
+</p>
+<p class="f-font f-hour">
+  After hours 1,048.00<span class="f-font f-percentage"> -1.61 (0.15%)</span>
+</p>
+
+<style>
+.g-font {
+  font-family :Arial;
+}
+.g-free {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.g-free2 {
   color: grey;
 }
-.body2 {
-  max-width: 300px;
-}
-.arial {
-  font-family: arial;
-}
-.deal {
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 0px;
-}
-.dealbody {
+.g-statement {
   margin-top: 5px;
-  color: red;
-  font-style: italic;
-}
-.d {
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 0px;
-}
-.dbody {
   font-size: 14px;
-  margin-left: 70px;
-  font-style:normal
+  max-width: 450px;
 }
-.dlink {
-  margin-left: 133;
-  font-size: 14px;
-  color: rgb(44, 44, 188);
-  
+.g-here {
+  font-size:14px;
 }
-.dlink:hover {
-    color: rgb(153, 79, 170);
-    cursor: pointer;
-    text-decoration: underline blue;
-}
-.dlink:active {
-    color: rgb(153, 79, 170);
-    opacity: 0.3;
+.g-chp {
+  color: rgb(0, 119, 255);
 }
 </style>
 
-<p class=" tahoma">
-  This is Tahoma Font
+<p class="g-font g-free">
+  freeCodeCamp.org <span class="g-font g-free2">@freeCodeCamp 1h</span>
 </p>
-<p class="verdana course">
-  HTML CSS Course
+<p class="g-font g-statement">
+  As a web developer, you'll want to make your projects
+  easy to use and navigate around.
 </p>
-<p class="verdana begin">
-  Beginner to Pro
+<p class="g-font g-here">
+  Here <span class="g-font g-chp">@chp_it</span> outlines the top skills new developers should have.
 </p>
-<p class="verdana body2">
-  In this course, we'll learn the skills
-  you need to become a developer.
-</p>
-<p class="arial deal">
-  Biggest Deals of the Year!
-</p>
-<p class="arial dealbody">
-  Sales end Tuesday
-</p>
-<p class="arial d">
-  Shopping for your business?
-</p>
-<p class="arial dbody">
-  See how Apple at Work can help.
-</p>
-<a class="dlink">
-  Learn more >
-</a>
+</body>
+</html>
