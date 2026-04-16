@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-  <style>
 .e-font {
   font-family: Arial;
 }
@@ -53,15 +48,6 @@
   opacity: 0.4;
 }
 
-</style>
-
-<p class="e-font e-new">New</p>
-<p class="e-font e-mac">MacBook Pro</p>
-<p class="e-font e-super">Supercharged for pros.</p>
-<p class="e-font e-from">From $1999</p>
-<button class="e-font e-buy">Buy</button>
-
-<style>
 .f-font {
   font-family: Arial;
 }
@@ -92,19 +78,7 @@
   color: red;
 }
 
-</style>
 
-<p class="f-font f-number">
-  1,049.61 <span class="f-font f-usd">USD</span>
-</p>
-<p class="f-font f-today">
-  +18.05 (1.75%) today
-</p>
-<p class="f-font f-hour">
-  After hours 1,048.00<span class="f-font f-percentage"> -1.61 (0.15%)</span>
-</p>
-
-<style>
 .g-font {
   font-family :Arial;
 }
@@ -127,17 +101,3 @@
 .g-chp {
   color: rgb(0, 119, 255);
 }
-</style>
-
-<p class="g-font g-free">
-  freeCodeCamp.org <span class="g-font g-free2">@freeCodeCamp 1h</span>
-</p>
-<p class="g-font g-statement">
-  As a web developer, you'll want to make your projects
-  easy to use and navigate around.
-</p>
-<p class="g-font g-here">
-  Here <span class="g-font g-chp">@chp_it</span> outlines the top skills new developers should have.
-</p>
-</body>
-</html>
