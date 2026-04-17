@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .cointainer {
+    display: flex;
+    width:800px;
+  }
+.redbox {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: Red;
+}
+.circle {
+  display: inline-block;
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border-radius: 100px;
+}
+.reviewbox {
+  border:1px solid black;
+  margin-left:20px;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 50px;
+  width:300px;
+  padding:10px 10px;
+  vertical-align: top;
+}
+
+.musicbox {
+  display: inline-block;
+  font-family: Arial;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  background-color: black;
+  width: 280px;
+    vertical-align: top;
+}
+.install {
+  color: white;
+
+
+}
+.add {
+  color: grey; 
+   font-size: 12px;
+}
+.tweetbox {
+  display: inline-block;
+  border:none;
+  box-shadow: 0px 0px 5px rgba(0,0,0,10);
+  
+  display: flex;
+  width: 400px;
+  padding: 0px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.tweetprofile {
+  border-radius: 50px;
+  width: 40px;
+}
+.tweet {
+  vertical-align: middle;
+  border: white;
+  padding: 10px;
+  margin-top: 0px;
+  width: 240px;
+  margin-left: 5px;
+  border-radius: 10px;
+  
+}
+.tweetbutton {
+  color: white;
+  background-color: rgb(0, 115, 255);
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+.tweetbutton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.tweetbutton:active {
+  opacity: 0.4;
+}
+
+.profilebox1 {
+  font-family: Arial;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 225px ;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  margin-bottom: 50px;
+}
+.profile1 {
+  
+}
+.name1 {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.friends1 {
+  color: grey;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.add1 {
+  color: white;
+  background-color: #385898;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  padding: 8px 25px;
+  border-radius: 4px;
+}
+.add1:hover {
+  cursor:pointer;
+  opacity: 0.8;
+}
+.add1:active {
+  opacity: 0.4;
+}
+
+.containerfriends1 {
+  display: flex;
+}
+.profilebox2 {
+  font-family: Arial;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 225px ;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  margin-bottom: 50px;
+}
+.profile2 {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  object-position: center;
+}
+.name2 {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.friends2 {
+  color: grey;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.add2 {
+  color: white;
+  background-color: #385898;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  padding: 8px 25px;
+  border-radius: 4px;
+}
+.add2:hover {
+  cursor:pointer;
+  opacity: 0.8;
+}
+.add2:active {
+  opacity: 0.4;
+}
+
+.profilebox3 {
+  font-family: Arial;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 225px ;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  margin-bottom: 50px;
+}
+.profile3 {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  object-position: center;
+}
+.name3 {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.friends3 {
+  color: grey;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.add3 {
+  color: white;
+  background-color: #385898;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  padding: 8px 25px;
+  border-radius: 4px;
+}
+.add3:hover {
+  cursor:pointer;
+  opacity: 0.8;
+}
+.add3:active {
+  opacity: 0.4;
+}
+
+.profilebox4 {
+  font-family: Arial;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 225px ;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.profile4 {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  object-position: center;
+}
+.name4 {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.friends4 {
+  color: grey;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.add4 {
+  color: white;
+  background-color: #385898;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  padding: 8px 25px;
+  border-radius: 4px;
+  border-right: 50px;
+}
+.add4:hover {
+  cursor:pointer;
+  opacity: 0.8;
+}
+.add4:active {
+  opacity: 0.4;
+}
+</style>
+
+</head>
+<body>
+  <div class="container">
+  <div class="redbox">  </div>
+  <div class="circle">  </div>
+    <div class="reviewbox">
+    <p>Satisfied with our service?</p>
+    <button>Yes</button>
+    <button>No</button>
+    </div>
+    <div class="musicbox">
+      <p class="install">Install Youtube Music</p>
+      <p class="add">Add Youtube Music to your desktop 
+        for quick and easy acess</p>
+    </div>
+    </div>
+
+    <div class="tweetbox">
+      <img class="tweetprofile" src="../thumbnail/images.jfif">
+      <input class="tweet" type="text" placeholder="What's happening?">
+      <button class="tweetbutton">Tweet</button>
+    </div>
+    <div class="profilebox1">
+      <img class="profile1" src="../thumbnail/images.jfif">
+      <p class="name1">Mimi</p>
+      <p class="friends1">2 mutual friends</p>
+      <button class="add1">Add Friend</button>
+    </div>
+
+    <div class="containerfriends1">
+      <div class="profilebox2">
+      <img class="profile2" src="../thumbnail/images (1).jfif">
+      <p class="name2">Beluga</p>
+      <p class="friends2">99 mutual friends</p>
+      <button class="add2">Add Friend</button>
+    </div>
+    <div class="profilebox3">
+      <img class="profile3" src="../thumbnail/catstandingmeme.jpg">
+      <p class="name3">rarrr</p>
+      <p class="friends3">2 mutual friends</p>
+      <button class="add3">Add Friend</button>
+    </div>
+    <div class="profilebox4">
+      <img class="profile4" src="../thumbnail/ya8qikz9kn0f1.png">
+      <p class="name4">shhhh</p>
+      <p class="friends4">2 mutual friends</p>
+      <button class="add4">Add Friend</button>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,60 +1,179 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
   <title>Youtube</title>
   <style>
     .arial {
-      font-family:Arial;
+      font-family:"Roboto", sans-serif;
+    }
+    .container1 {
+      width: 600px;
+      display: flex;
+      gap: 20px;
+    }
+    .videobox1 {
+      width: 300px;
     }
     .thumbnail1 {
       display: inline-block;
-      width:300px;
+      width:270px;
       margin-bottom: 0px;
       padding-bottom: 0px;
     }
+    .box-youtuber1 {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .box-info1 {
+      display: inline-block;
+    }
     .youtuber1 {
+      display: inline-block;
       max-width: 500px;
-      margin-top: 0px;
+      margin-top: 5px;
       width:40px;
       position: 50px;
-      display: block;
+      border-radius: 20px;
+      text-align: top;
     }
     .search1 {
       display: block;
+      margin-bottom: 20px;
     }
+
     .title1 {
-      margin-top: 0px;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-bottom: 0px;
       font-size: 14px;
-      font-weight: 500;
+      font-weight:500; 
       width: 220px;
       line-height: 20px;
+      vertical-align: top;
     }
       .person1 {
         font-size: 12px;
         color: grey;
         margin-bottom: 0px;
+        margin-top: 20px;
+        margin-left: 5px;
       
     }
     .views1 {
       margin-top: 5px;
       color: grey;
       font-size: 12px;
+      margin-left: 5px;
+    }
+
+    .videobox2 {
+      width: 300px;
+    }
+    .grouptext2 {
+      font-size: 12;
+    }
+    .thumbnail2 {
+      width: 270px;
+    }
+    .con-youtuber {
+      display: inline-block;
+    }
+    .con-info {
+      display: inline-block;
+    }
+    .boxyoutuber {
+      
+      vertical-align: top;
+      display: inline-block
+    }
+    .youtuber2 {
+      
+        max-width: 500px;
+      margin-top: 3px;
+      width:40px;
+      position: 50px;
+      border-radius: 20px;
+  margin-bottom: 8px;
+    }
+    .title2 {
+  display: inline-block;
+  margin-top:5px;
+  margin-left: 5px;
+  vertical-align: top;
+  font-size: 14px;
+    }
+    .person2 {
+      
+  margin-left: 5px;
+      font-size: 12px;
+      color: grey;
+      margin-bottom:0px;
+    }
+    .views2 {
+      
+  margin-left: 5px;
+      margin-top:5px;
+      font-size: 12px;
+      color: grey;
     }
   </style>
 </head>
 <body>
   <input class="search1" type="text" placeholder="Search">
-  <img class="thumbnail1" src="thumbnail/thumbnail-1 (1).webp">
-  <img class="youtuber1" src="thumbnail/channel-1.jpeg">
-  <p class="arial title1">
-Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-<p class="arial person1">
-  Marques Brownlee
-</p>
-<p class="arial views1">
-  3.4M views · 6 months ago
-</p>
+<div class="container1">
+  <div class="videobox1">
+    <div>
+        <img class="thumbnail1" src="thumbnail/thumbnail-1 (1).webp">
+    </div>
+    <div>
+      <div class="box-youtuber1">
+          <img class="youtuber1" src="thumbnail/channel-1.jpeg">
+      </div>
+      <div class="box-info1">
+        <div class="container-info">
+          <p class="arial title1">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+        </div>
+        <div class="box-person1">
+          <p class="arial person1">
+              Marques Brownlee
+          </p>
+        </div>
+        <div class="box-views1">
+          <p class="arial views1">
+            3.4M views · 6 months ago
+          </p>
+        </div>   
+      </div>  
+    </div>
+</div>
+
+<div class="arial videobox2">
+  <div>  
+    <img class="arial thumbnail2" src="thumbnail/thumbnail-2.webp">
+  </div>
+  <div class="con-youtuber">
+    <div class="boxyoutuber">
+      <img class="arial youtuber2" src="thumbnail/channel-2.jpeg">
+    </div>
+    <div class="con-info">
+      <p class="arial title2">Try Not To Laugh Challenge #9</p>
+      <p class="arial person2">Markiplier</p>
+      <p class="arial views2">19M views · 4 years ago</p>
+  </div>
+    
+
+
+
+  </div>
+  
+</div>
+</div>
 
 
 

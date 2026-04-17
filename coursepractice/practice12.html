@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .arial {
+      font-family: Arial;
+    }
+    .first {
+      padding: 8px 10px;
+      width: 100px;
+      border-radius: 8px;
+      border-color: grey;
+      border-style: solid;
+      border-width: 1px;
+    }
+    .last {
+      padding: 8px 10px;
+      width: 100px;
+      border-radius: 8px;
+      border-color: grey;
+      border-style: solid;
+      border-width: 1px;
+    }
+    .email {
+      margin-top: 8px;
+      padding: 8px ;
+      border-radius: 8px;
+      border-width: 1px;
+      border-style: solid;
+      display: block;
+      width: 230px;
+    }
+    .sign {
+      margin-top: 8px;
+      padding: 8px 100px; 
+      color: white;
+      font-weight: bold;
+      background-color: rgb(0, 85, 255);
+      border: none;
+      margin-bottom: 100px;
+    }
+    .sign:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    .sign:active {
+      opacity: 0.4;
+    }
+
+    .ride {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .location {
+      padding: 5px 8px;
+      font-size: 8px;
+      width: 200px;
+      display: block;
+      border: none;
+      filter: brightness(0.9);
+    }
+    .location:active {
+      border: none;
+    }
+    .destination {
+      padding: 5px 8px;;
+      font-size: 8px;
+      width: 200px;
+      display: block;
+      margin-top: 5px;
+      border: none;
+      filter: brightness(0.9);
+
+    }
+    .request {
+      padding: 5px 10px;
+      margin-top: 20px;
+      color: white;
+      background-color: black;
+      border: none;
+      font-size: 10px;
+      transition: opacity 0.15s;
+    }
+    .request:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    .request:active {
+      opacity: 0.4;
+    }
+    .schedule {
+      margin-left: 5px;
+      padding: 5px 10px;
+      color: black;
+      background-color: white;
+      border: none;
+      font-size: 10px;
+      filter: brightness(0.9);
+      transition: opacity 0.15s;
+    }
+    .schedule:hover {
+      cursor:pointer;
+      opacity: 0.7;
+    }
+    .schedule:active {
+      opacity: 0.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup">
+  <input class="arial first" type="text" placeholder="First name">
+  <input class="arial last" type="text" placeholder="Last name">
+  <input class="arial email" type="text" placeholder="Email">
+  </div>
+  <button class="arial sign">
+    Sign Up
+  </button>
+
+  <p class="arial ride">
+    Request a ride now
+  </p>
+  <input class="arial location" type="text"
+   placeholder=" Enter pickup location">
+
+   <input class="arial destination" type="text" 
+   placeholder="Enter destination" >
+
+   <button class="arial request">
+    Request now
+   </button>
+   <button class="arial schedule">
+    Schedule for later
+   </button>
+</body>
+</html>
