@@ -1,0 +1,29 @@
+.arial {
+  font-family: "Roboto", sans-serif;
+}
+.flex-topheader1 {
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-left1 {
+  background-color: pink;
+  margin-right: 60px;
+  width: 150px;
+  
+}
+.flex-middle1 {
+  background-color: blue;
+  max-width: 470px;
+  flex: 1;
+  
+
+}
+.flex-right1 {
+  background-color: pink;
+  margin-right: 24px;
+  margin-left: 29px;
+  width: 210px;
+  
+}
