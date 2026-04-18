@@ -1,29 +1,97 @@
 .arial {
   font-family: "Roboto", sans-serif;
 }
+
 .flex-topheader1 {
   height: 57px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .flex-left1 {
   background-color: pink;
-  margin-right: 60px;
-  width: 150px;
-  
+  margin-right: 50px;
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+
 }
+
+.burger-icon {
+  width: 75px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.burger-picture {
+  width: 24px;
+  height: 24px;
+}
+
+.youtube-icon {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.youtube-picture {
+  width: 90px;
+}
+
 .flex-middle1 {
   background-color: blue;
   max-width: 470px;
+  display: flex;
+  flex-direction: row;
   flex: 1;
-  
 
 }
+
+.search-box {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.search {
+  height: 40px;
+}
+
+.search-logo {
+  width: 64px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+.search-image {
+  height: 40px;
+}
+
+.microphone-box {
+  width: 40px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.microphone-picture {
+  height: 40px;
+  display: flex;
+  
+}
+
 .flex-right1 {
   background-color: pink;
   margin-right: 24px;
   margin-left: 29px;
   width: 210px;
-  
+
 }
