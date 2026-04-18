@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .con1 {
+      font-family: arial;
+      display: grid;
+      grid-template-rows: 30px 30px 30px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+      width: 295px;
+      align-items: center;
+      padding-left: 8px;
+    }
+    .home1 {
+  
+      display: grid;
+      grid-template-columns:240px 30px;
+    
+    }
+    .homeleft {
+      width:100%;
+    }
+    .homeright {
+      
+      width: 36px;
+      background-color: rgba(28, 80, 200, 0.7);
+    }
+    .notification1 {
+      display: grid;
+      grid-template-columns: 250px 30px;
+    }
+    .leftnotifications {
+      width: 100%;
+    }
+    .rightnotifications {
+    
+      width:26px;
+      background-color: rgba(28, 80, 200, 0.7);
+      
+    }
+    .messages1 {
+      display: grid;
+      grid-template-columns: 250px 30px;
+    }
+    .leftmessages {
+      width:100%;
+    }
+    .rightmessages {
+      width: 26px;
+      background-color: rgba(28, 80,200, 0.7);
+    }
+    .homeright, .rightnotifications, .rightmessages {
+      display: flex;
+      border-radius: 10px;
+      font-size: 13px;
+      color: white;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="con1">
+    <div class="home1">
+      <div class="homeleft">
+        Home
+      </div>
+      <div class="homeright">
+        14
+      </div>
+    </div >
+    <div class="notification1">
+      <div class="leftnotifications">
+        Notification
+      </div>
+      <div class="rightnotifications">
+        3
+      </div>
+    </div>
+    <div class="messages1">
+      <div class="leftmessages">
+        Messages
+      </div>
+      <div class="rightmessages">
+        5
+      </div>
+  
+    </div>
+  </div>
+</body>
+</html>
