@@ -1,0 +1,32 @@
+.side-header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 55px;
+  top: 55px;
+  left: 0px;
+}
+.side-home {
+  width: 72px;
+  height: 74px;
+}
+.side-explore {
+  width: 72px;
+  height: 74px;
+}
+.side-subscription {
+  width: 72px;
+  height: 74px;
+}
+.side-originals {
+  width: 72px;
+  height: 74px;
+}
+.side-music {
+  width: 72px;
+  height: 74px;
+}
+.side-library {
+  width: 72px;
+  height: 74px;
+}

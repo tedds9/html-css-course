@@ -1,12 +1,23 @@
-.container1 {
 
+.video-list {
+  padding-top: 28px;
+
+}
+.container1 {
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  max-width: 1279px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 30px;
   column-gap: 16px;
-}
+  
 
-.videobox1 {}
+}
+.videobox1 {
+
+}
 
 .thumbnail1 {
   width: 100%;
