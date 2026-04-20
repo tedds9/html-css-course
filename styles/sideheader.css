@@ -6,6 +6,9 @@
   top: 55px;
   left: 0px;
 }
+.side-home-box {
+display: flex;
+}
 .side-home {
   width: 72px;
   height: 74px;
@@ -29,4 +32,13 @@
 .side-library {
   width: 72px;
   height: 74px;
+}
+.s-img1,.s-img2,.s-img3,
+.s-img4,.s-img5,.s-img6 {
+  width: 24px;
+  height: 24px;
+}
+.s-text1,.s-text2,.s-text3,
+.s-text4,.s-text5,.s-text6 {
+  font-size: 10px;
 }

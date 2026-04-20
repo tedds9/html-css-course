@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .body {
+      height: 3000px;
+    }
+    .discord-sidebar {
+      position: fixed;
+      left: 0px;
+      right:500px;
+      top: 0px;
+      bottom: 0px;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+    }
+    .sidebar-left-con {
+      display: flex;
+      width: 70px;
+      background-color: rgba(18, 15, 15, 0.734);
+      flex-direction: column;
+      align-items: center;
+    }
+    .left-picture-box {
+      display: flex;
+      height:45px;
+      width: 45px;
+      margin-top: 12px;
+    }
+    .sidebar-pic {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .sidebar-right-con {
+      font-family :Arial;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      background-color: rgba(47, 47, 47, 0.722);
+    }
+    .sidebar-channel-box-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 10px;
+    }
+    .sidebar-channel-box {
+      
+      height: 30px;
+      display: flex;
+      padding: 3px 10px;
+      color: rgba(218, 217, 217, 0.811);
+    }
+    .channel-text-top {
+      color: white;
+      font-size: 14px;
+    }
+    .channel-plus-button {
+      font-size: 20px;
+      color: rgba(137, 137, 137, 0.753);
+    }
+    .channel-text {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body class="body">
+  <div class="discord-sidebar">
+    <div class="sidebar-left-con">
+      <div class="left-picture-box">
+        <img class="sidebar-pic" src="../thumbnail/images.jfif">
+      </div>
+      <div class="left-picture-box">
+        <img class="sidebar-pic" src="../thumbnail/catmeme1.webp">
+        </img>
+      </div>
+      <div class="left-picture-box">
+        <img class="sidebar-pic" src="../thumbnail/catmeme2.jfif">
+      </div>
+    </div>
+    <div class="sidebar-right-con">
+      <div class="sidebar-channel-box-top">
+        <span class="channel-text-top">
+          Main
+        </span>
+        <span class="channel-plus-button">
+          +
+        </span>
+      </div>
+      <div class="sidebar-channel-box">
+        <span class="channel-text">
+          # verify
+        </span>
+      </div>
+      <div class="sidebar-channel-box">
+        <span class="channel-text">
+          # video
+        </span>
+      </div>
+      <div class="sidebar-channel-box">
+        <span class="channel-text">
+          # support
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 

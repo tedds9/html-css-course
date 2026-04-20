@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .b  {
+      height: 3000px;
+    }
+    .con1 {
+      width:100px;
+      position: fixed;
+      right:0px;
+      top: 0px;
+      bottom: 0px;
+      background-color: green;
+      color: white;
+    }
+    .overlay {
+      position: fixed;
+      background-color: rgba(0,0,0,0.8);
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left:0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .o-box {
+      background-color: white;
+      width: 310px;
+      height: 110px;
+      display: flex;
+      border-radius: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+    .o-text-box {
+      font-family: Arial;
+      display: flex;
+
+      flex-direction: column;
+      width: 280px;
+      height: 80px;
+      justify-content: center;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .o-t1 {
+      font-weight: bold;
+      font-size: 22px;
+    }
+    .o-t2 {
+      font-size: 15px;
+    }
+    .o-t3 {
+      border: solid 1px black;
+      padding: 1px 6px;
+      font-size: 14px;
+      border-radius: 3px;
+      background-color: rgba(168, 166, 166, 0.229);
+    }
+  </style>
+</head>
+<body class="b">
+  <div class="con1">
+    right-sidebar
+  </div>
+  <div class="overlay">
+    <div class="o-box">
+      <div class="o-text-box">
+        <div class="o-t1">
+          Modal Title
+        </div>
+        <div class="o-t2">
+          This is a modal
+        </div>
+        <div class="o-t3">
+          Close
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
