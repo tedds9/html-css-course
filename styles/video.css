@@ -1,6 +1,7 @@
 
 .video-list {
   padding-top: 28px;
+  padding-left: 30px;
 
 }
 .container1 {
@@ -18,11 +19,18 @@
 .videobox1 {
 
 }
-
-.thumbnail1 {
-  width: 100%;
+.thumbnail-box {
+position: relative;
 }
 
+.thumbnail1 {
+  position: relative;
+  width: 100%;
+  }
+.thumbnail-time {
+  position: absolute;
+
+}
 .box-youtuber1 {
   display: inline-block;
   vertical-align: top;
