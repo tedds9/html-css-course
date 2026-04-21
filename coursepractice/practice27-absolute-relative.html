@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .fix {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+    }
+
+    .b {
+      height: 3000px;
+    }
+
+
+    .button {
+      font-family: Arial;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      padding: 5px 15px;
+      color: white;
+      background-color: black;
+      display: flex;
+      border-radius: 50%;
+      font-size: 30px;
+    }
+
+
+    .box-time {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      display: flex;
+      background-color: black;
+      color: white;
+      padding: 3px 5px;
+    }
+
+    .bottom-box {
+      position: relative;
+      width: 320px;
+      height: 180px;
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      background-color: rgba(89, 88, 88, 0.686);
+    }
+
+    .con1 {
+      transform-origin: top left;
+      scale: 1.5;
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+
+    .clothing-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .discount {
+      font-family: Arial;
+      background-color: black;
+      color: white;
+      z-index: 99;
+      position: absolute;
+      right: 0px;
+      top: 5px;
+      font-size: 12px;
+      padding: 3px 5px;
+    }
+    .cart-box {
+      position: relative;
+      height:25%;
+      width: 100%;
+      z-index: 100;
+      bottom: 0px;
+      top: 75%;
+      background-color: rgba(255, 255, 255, 0.698);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .cart-button {
+      border: solid 1px black;
+      background-color: white;
+      font-family: Arial;
+      font-size: 10px;
+      padding: 3px 7px;
+    }
+  </style>
+</head>
+
+<body class="b">
+  <div class="fix">
+    <div class="bottom-box">
+      <div class="box-time">
+        0:29
+      </div>
+      <div class="button">
+        x
+      </div>
+
+    </div>
+  </div>
+  <div class="con1">
+    <div class="discount">
+      20% OFF
+    </div>
+    <img class="clothing-image" src="../thumbnail/clothes2.jfif">
+    <div class="cart-box">
+      <div class="cart-button">Add to Cart</div>
+    </div>
+  </div>
+</body>
+
+</html>

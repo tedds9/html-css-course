@@ -1,10 +1,14 @@
 
 .video-list {
-  padding-top: 28px;
+  padding-top: 25px;
   padding-left: 30px;
+  display: flex;
+  padding-right: 24px;
+  background-color: rgba(211, 211, 211, 0.17);
 
 }
 .container1 {
+  font-family: Roboto;
   top: 0px;
   right: 0px;
   left: 0px;
@@ -20,15 +24,23 @@
 
 }
 .thumbnail-box {
-position: relative;
+  
+  position: relative;
 }
 
 .thumbnail1 {
-  position: relative;
   width: 100%;
   }
 .thumbnail-time {
+  font-family: Roboto;
   position: absolute;
+  bottom: 12px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  padding: 3px 4px;
+  font-size: 12px;
+  border-radius: 2px;
 
 }
 .box-youtuber1 {
@@ -39,13 +51,16 @@ position: relative;
 .grid-info1 {
   display: grid;
   grid-template-columns: 40px 1fr;
+  padding-top: 4px;
 }
 
-.box-info1 {}
+.box-info1 {
+  padding-left: 4px;
+}
 
 .youtuber1 {
   margin-top: 5px;
-  width: 40px;
+  width: 35px;
   position: 50px;
   border-radius: 20px;
   text-align: top;
@@ -67,7 +82,7 @@ position: relative;
   font-size: 12px;
   color: grey;
   margin-bottom: 0px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 5px;
 
 }

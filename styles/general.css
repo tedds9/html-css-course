@@ -1,5 +1,27 @@
 body {
   margin: 0;
   padding-top: 55px;
-  padding-left: 100px;
+  padding-left: 65px;
+}
+.h {
+  transform: 0.15s;
+}
+.h:hover {
+  background-color: rgba(128, 128, 128, 0.15);
+  cursor: pointer;
+}
+.c:hover {
+  cursor: pointer;
+}
+.thumbnail1:hover {
+  cursor: pointer;
+}
+.youtuber1:hover {
+  cursor: pointer;
+}
+.title1:hover {
+  cursor: pointer;
+}
+.person1:hover {
+  cursor:pointer;
 }
