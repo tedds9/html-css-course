@@ -25,3 +25,7 @@ body {
 .person1:hover {
   cursor:pointer;
 }
+.a {
+  color: black;
+  text-decoration: none;
+}
